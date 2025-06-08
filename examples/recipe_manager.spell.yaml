@@ -1,0 +1,198 @@
+# RecipeHub - Smart Recipe Management
+# A SPELL specification example
+
+product_vision: "A smart recipe management app that helps home cooks organize, discover, and adapt recipes to their preferences, making cooking more enjoyable and efficient"
+
+user_pain_points:
+  - "Recipes scattered across different websites and apps"
+  - "Can't easily adjust recipes for different serving sizes"
+  - "Hard to find recipes based on ingredients I have"
+  - "No way to track which recipes I've tried and liked"
+  - "Difficult to share recipes with family and friends"
+
+user_stories:
+  - "As a home cook, I want to save recipes from any website so I can find them later"
+  - "As a meal planner, I want to scale recipes up or down so I can cook for any number of people"
+  - "As a busy parent, I want to find recipes based on ingredients I have so I can avoid food waste"
+  - "As a cooking enthusiast, I want to track my favorite recipes so I can build my personal collection"
+  - "As a family cook, I want to share recipes with my family so we can all cook the same meals"
+
+core_features:
+  must_have:
+    - Recipe saving from any website
+    - Serving size adjustment
+    - Ingredient-based search
+    - Recipe collections
+    - Offline access to saved recipes
+  nice_to_have:
+    - Meal planning calendar
+    - Shopping list generation
+    - Nutritional information
+    - Cooking timer
+    - Recipe scaling
+
+non_goals:
+  - "NOT a social media platform"
+  - "NOT a restaurant management system"
+  - "NOT a food delivery service"
+  - "NOT a professional chef tool"
+
+success_metrics:
+  - "Save a recipe in under 10 seconds"
+  - "Find a recipe by ingredients in under 15 seconds"
+  - "Adjust serving size in under 5 seconds"
+  - "Share a recipe in under 3 clicks"
+
+target_users:
+  primary:
+    - Home cooks (25-65)
+    - Meal planners
+    - Family cooks
+  secondary:
+    - Cooking beginners
+    - Food bloggers
+    - Nutrition-conscious individuals
+
+usage_context:
+  primary_environment: "Mobile and desktop"
+  time_constraints: "Variable (2-30 minutes)"
+  device_preferences:
+    - Mobile (70% of usage)
+    - Desktop web (30% of usage)
+  typical_usage:
+    - "Meal planning"
+    - "While cooking"
+    - "Grocery shopping"
+    - "Recipe discovery"
+
+user_experience_flow:
+  initial_screen: "Recently saved recipes"
+  navigation:
+    - "Quick search bar"
+    - "Category-based browsing"
+    - "Collection management"
+  key_interactions:
+    - "Save recipe button"
+    - "Adjust servings slider"
+    - "Add to collection"
+    - "Share recipe"
+
+key_interactions_with_examples:
+  recipe_saving:
+    - "Share button → RecipeHub → Save"
+    - "Browser extension → Click save"
+  recipe_management:
+    - "Swipe to adjust servings"
+    - "Tap heart to favorite"
+    - "Long press to edit"
+  navigation:
+    - "Swipe between collections"
+    - "Search by ingredients"
+    - "Filter by dietary preferences"
+
+onboarding_experience:
+  first_time:
+    - "Welcome tour of key features"
+    - "Sample recipe saving"
+    - "Collection creation"
+  minimum_setup:
+    - "Email signup"
+    - "Dietary preferences"
+    - "Serving size defaults"
+  learning_curve:
+    - "Contextual tips"
+    - "Feature discovery"
+    - "Quick start guide"
+
+error_handling_recovery:
+  common_scenarios:
+    - "Offline access to saved recipes"
+    - "Invalid recipe format"
+    - "Missing ingredients"
+  recovery_paths:
+    - "Auto-save drafts"
+    - "Recipe format validation"
+    - "Ingredient substitution suggestions"
+  user_communication:
+    - "Clear error messages"
+    - "Helpful suggestions"
+    - "Visual feedback"
+
+data_privacy:
+  storage:
+    - "Cloud storage with offline cache"
+    - "Local backup option"
+  access:
+    - "Personal recipes private by default"
+    - "Optional public sharing"
+  data_retention:
+    - "Keep recipes indefinitely"
+    - "Archive option for unused recipes"
+
+user_access_model:
+  primary: "Email-based accounts"
+  options:
+    - "Free tier (limited features)"
+    - "Premium tier (full features)"
+    - "Family sharing"
+
+technical_constraints_requirements:
+  platform:
+    - "Web (Chrome, Safari, Firefox)"
+    - "iOS 14+"
+    - "Android 10+"
+  connectivity:
+    - "Offline access to saved recipes"
+    - "Background sync"
+  performance:
+    - "Recipe load < 2 seconds"
+    - "Search results < 1 second"
+  accessibility:
+    - "Screen reader support"
+    - "High contrast mode"
+    - "Text size adjustment"
+
+multi_user_behavior:
+  collaboration:
+    - "Family recipe sharing"
+    - "Meal planning together"
+    - "Shopping list sharing"
+  permissions:
+    - "View only"
+    - "Edit"
+    - "Admin"
+  conflict_resolution:
+    - "Version history"
+    - "Merge changes"
+    - "Conflict notification"
+
+integration_needs:
+  required:
+    - "Browser extension"
+    - "Share sheet integration"
+  optional:
+    - "Smart home devices"
+    - "Nutrition databases"
+    - "Shopping apps"
+
+migration_path:
+  import:
+    - "Paprika"
+    - "Cookmate"
+    - "AnyList"
+    - "PDF/Image recipes"
+  export:
+    - "PDF"
+    - "Text format"
+    - "Image format"
+
+scalability_expectations:
+  data_volume:
+    - "Up to 10,000 recipes per user"
+    - "Up to 50,000 users"
+  performance:
+    - "Handle 1,000+ concurrent users"
+    - "Support 100+ recipes per user"
+  growth:
+    - "Support 100x user growth"
+    - "Handle 1M+ recipes" 
